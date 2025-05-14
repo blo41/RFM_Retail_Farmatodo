@@ -2,7 +2,7 @@
 
 ## Tabla de Contenidos
 
-- [Contexto del Proyecto] (#contexto-del-proyecto)
+- [Contexto del Proyecto](#contexto-del-proyecto)
 
 ## Contexto del Proyecto 
 
