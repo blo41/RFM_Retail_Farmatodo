@@ -1,0 +1,33 @@
+CREATE TABLE clientes (
+    cliente_id TEXT PRIMARY KEY,
+    nombre TEXT,
+    apellido TEXT,
+    correo TEXT,
+    edad INT,
+    ubicacion TEXT,
+    fecha_registro DATE,
+    segmentacion_demo TEXT
+);
+
+CREATE TABLE productos (
+    producto_id TEXT PRIMARY KEY,
+    nombre TEXT,
+    categoria TEXT,
+    marca TEXT,
+    precio NUMERIC,
+    formato TEXT
+);
+
+CREATE TABLE ventas (
+    fila_id TEXT PRIMARY KEY,
+    venta_id TEXT,
+    cliente_id TEXT REFERENCES clientes(cliente_id),
+    producto_id TEXT REFERENCES productos(producto_id),
+    fecha_compra DATE,
+    año INT,
+    mes_texto TEXT,
+    origen TEXT,
+    cantidad INT,
+    precio_unitario NUMERIC,
+    monto NUMERIC
+);

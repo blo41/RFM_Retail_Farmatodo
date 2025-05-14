@@ -1,0 +1,41 @@
+﻿producto_id,nombre,categoria,marca,precio,formato
+PRD-FD001,Engystol ,Medicamentos,Engystol ,85950,50 Tab
+PRD-FD002,Vick Vaporub Ungüento,Medicamentos,Vick,21950,50 Gr
+PRD-FD003,Neurexan,Medicamentos,Neurexan,68450,50 Tab
+PRD-FD004,Aspirina 100 Mg,Medicamentos,Bayer,20950,28 Tab
+PRD-FD005,Duraflex,Medicamentos,Duraflex,16950,6 Cap
+PRD-FD006,Acetaminofen Ag 500 Mg,Medicamentos,Ag,5520,20 Tab
+PRD-FD007,Electrolit  Fresa Kiwi,Medicamentos,Electrolit,8750,625 Ml
+PRD-FD008,Pedialyte Max Manzana,Medicamentos,Pedialyte,9600,500 Ml
+PRD-FD009,Dolex Gripa 500 Mg,Medicamentos,Dolex,17950,12 Tab
+PRD-FD010,Noxpirin 500 Mg,Medicamentos,Noxpirin,16950,12 Cap
+PRD-FD011,Noraver Gripa Noche,Medicamentos,Noraver,18400,6 Sob
+PRD-FD012,Abrilar Expectorante,Medicamentos,Abrilar,62950,200 Ml
+PRD-FD013,Advil Gripa,Medicamentos,Advil,21950,10 Tab
+PRD-FD014,Strepsils Intensive Miel Y Limon,Medicamentos,Strepsils,27300,16 Tab
+PRD-FD015,Pax Dia Naranja,Medicamentos,Pax,16500,6 Sob
+PRD-FD016,Ensure Advance Vainilla,Nutricion,Ensure,150950,850 Gr
+PRD-FD017,Prowhey Vainilla,Nutricion,Prowhey,169950,868 Gr
+PRD-FD018,Proteina Whey Elite Vainilla,Nutricion,Whey,124080,908 Gr
+PRD-FD019,Vita C 500 Gm,Nutricion,Mk,21450,36 Tab
+PRD-FD020,Fraccion Cebion Naranja 500 Mg,Nutricion,Cebion,11300,36 Tab
+PRD-FD021,Benet Colageno Hidrolizado,Nutricion,Benet,25950,60 Cap
+PRD-FD022,Centrum Women ,Nutricion,Centrum,48950,60 Tab
+PRD-FD023,Emulsion Scott,Nutricion,Scott Multivitaminico,25950,360 Ml
+PRD-FD024,Bion3 Multivitaminico,Nutricion,Bion3,79350,60 Tab
+PRD-FD025,Vita E  Mk 400 U.I,Nutricion,Mk,42550,50 Cap
+PRD-FD026,Crema Neutrogena Hydro Boost,Cuidado Personal,Neutrogena,81050,50 Gr
+PRD-FD027,Serum Antimanchas ,Cuidado Personal,Garnier,65950,30 Ml
+PRD-FD028,Serum Rellenador Revitalift,Cuidado Personal,Loreal Paris,87950,30 Ml
+PRD-FD029,Serum Retinol Revitalift,Cuidado Personal,Loreal Paris,103950,30 Ml
+PRD-FD030,Protector Solar Anthelios,Cuidado Personal,La Roche Posay,127950,50 Ml
+PRD-FD031,Crema Lubriderm ,Cuidado Personal,Lubriderm,48350,400 Ml
+PRD-FD032,Protector Eucerin Labial Ph5,Cuidado Personal,Eucerin,31408,4.8 Gr
+PRD-FD033,Aceite Bio Oil Corporal,Cuidado Personal,Bio Oil,68950,125 Ml
+PRD-FD034,Serum Farmatodo + Vitammina C,Cuidado Personal,Farmatodo,39950,30 Ml
+PRD-FD035,Shampoo H&S Anti-Comezon,Cuidado Personal,Head & Shoulders ,25950,375 Ml
+PRD-FD036,Enjuague Bucal Listerine Cool Mint,Cuidado Personal,Listerine,11950,180 Ml
+PRD-FD037,Crema Dental Colgate Total Clean Mint,Cuidado Personal,Colgate ,10900,75 Ml
+PRD-FD038,Jabon Dove Beauty Humectante,Cuidado Personal,Dove,7950,90 Gr
+PRD-FD039,Desodorante Antitranspirante Barra Crema Rexona Clinical,Cuidado Personal,Rexona,26500,48 Gr
+PRD-FD040,Desodorante Rexona Clinical Men,Cuidado Personal,Rexona,26600,48 Gr

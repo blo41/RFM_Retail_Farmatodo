@@ -1,0 +1,9 @@
+copy clientes 
+FROM 'C:\proyecto_retail\csv_files\Farmatodo_Clientes.csv' 
+DELIMITER ',' CSV HEADER;
+copy productos 
+FROM 'C:\proyecto_retail\csv_files\Farmatodo_Productos.csv' 
+DELIMITER ',' CSV HEADER;
+copy ventas 
+FROM 'C:\proyecto_retail\csv_files\Farmatodo_Ventas.csv' 
+DELIMITER ',' CSV HEADER;

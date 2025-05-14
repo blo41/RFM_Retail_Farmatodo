@@ -1,0 +1,301 @@
+﻿cliente_id,nombre,apellido,correo,edad,ubicación,fecha_registro,segmentacion_demo
+CL-001,Natalia,Camacho,Natalia. Camacho@gmail.com,42,Bogotá,14/05/2021,Adulto Medio
+CL-002,Maria,Ortega,Maria. Ortega@gmail.com,49,Cali,26/08/2020,Adulto Medio
+CL-003,Paula,Salazar,Paula. Salazar@gmail.com,38,Barranquilla,16/10/2021,Adulto
+CL-004,Santiago,Ortega,Santiago. Ortega@gmail.com,44,Medellín,08/03/2020,Adulto Medio
+CL-005,Kevin,Sánchez,Kevin. Sánchez@gmail.com,56,Bogotá,30/06/2020,Adulto Medio
+CL-006,Andrés,Moreno,Andrés. Moreno@gmail.com,26,Cúcuta,05/07/2020,Adulto Joven
+CL-007,Andrés,Castro,Andrés. Castro@gmail.com,35,Bogotá,02/05/2020,Adulto
+CL-008,Diego,Mejía,Diego. Mejía@gmail.com,70,Pereira,09/10/2021,Adulto Mayor
+CL-009,Sofía,Torres,Sofía. Torres@gmail.com,46,Bogotá,08/09/2020,Adulto Medio
+CL-010,Camila,Sánchez,Camila. Sánchez@gmail.com,64,Cartagena,28/07/2020,Adulto Mayor
+CL-011,Santiago,Ramírez,Santiago. Ramírez@gmail.com,69,Bogotá,26/02/2022,Adulto Mayor
+CL-012,Carlos,Salazar,Carlos. Salazar@gmail.com,66,Bogotá,22/08/2021,Adulto Mayor
+CL-013,Santiago,Suárez,Santiago. Suárez@gmail.com,31,Bogotá,02/07/2022,Adulto
+CL-014,Manuela,Pérez,Manuela. Pérez@gmail.com,63,Bogotá,03/04/2022,Adulto Mayor
+CL-015,María,Salazar,María. Salazar@gmail.com,38,Medellín,13/02/2021,Adulto
+CL-016,Valentina,León,Valentina. León@gmail.com,22,Bogotá,30/07/2020,Adulto Joven
+CL-017,Manuela,Herrera,Manuela. Herrera@gmail.com,28,Bogotá,30/12/2021,Adulto Joven
+CL-018,Natalia,León,Natalia. León@gmail.com,52,Barranquilla,07/07/2021,Adulto Medio
+CL-019,Paula,Suárez,Paula. Suárez@gmail.com,70,Bucaramanga,02/03/2020,Adulto Mayor
+CL-020,Laura,Ortega,Laura. Ortega@gmail.com,40,Manizales,30/01/2021,Adulto Medio
+CL-021,Laura,León,Laura. León@gmail.com,47,Bogotá,18/04/2023,Adulto Medio
+CL-022,Samuel,Cárdenas,Samuel. Cárdenas@gmail.com,26,Medellín,16/06/2021,Adulto Joven
+CL-023,Paula,Vargas,Paula. Vargas@gmail.com,59,Bogotá,17/05/2021,Adulto Medio
+CL-024,Alejandro,García,Alejandro. García@gmail.com,35,Bogotá,11/05/2023,Adulto
+CL-025,María,Castro,María. Castro@gmail.com,39,Bogotá,10/02/2021,Adulto
+CL-026,Sofía,Martínez,Sofía. Martínez@gmail.com,27,Bogotá,19/10/2023,Adulto Joven
+CL-027,Paula,Rodríguez,Paula. Rodríguez@gmail.com,42,Bogotá,06/04/2022,Adulto Medio
+CL-028,Jorge,Ramírez,Jorge. Ramírez@gmail.com,37,Cartagena,25/06/2020,Adulto
+CL-029,Gabriela,Pineda,Gabriela. Pineda@gmail.com,57,Bogotá,26/09/2022,Adulto Medio
+CL-030,Lina,Castro,Lina. Castro@gmail.com,52,Barranquilla,06/05/2022,Adulto Medio
+CL-031,Manuela,Guerrero,Manuela. Guerrero@gmail.com,65,Bogotá,07/03/2020,Adulto Mayor
+CL-032,Mariana,Vargas,Mariana. Vargas@gmail.com,57,Bogotá,09/04/2020,Adulto Medio
+CL-033,Kevin,Camacho,Kevin. Camacho@gmail.com,55,Cali,16/04/2023,Adulto Medio
+CL-034,David,Moreno,David. Moreno@gmail.com,37,Bogotá,28/07/2020,Adulto
+CL-035,Kevin,Gómez,Kevin. Gómez@gmail.com,46,Bogotá,10/04/2021,Adulto Medio
+CL-036,Nicolás,Salazar,Nicolás. Salazar@gmail.com,53,Cúcuta,26/10/2023,Adulto Medio
+CL-037,Natalia,Moreno,Natalia. Moreno@gmail.com,35,Bogotá,05/11/2020,Adulto
+CL-038,Sara,Romero,Sara. Romero@gmail.com,30,Cali,13/01/2023,Adulto
+CL-039,Santiago,Gómez,Santiago. Gómez@gmail.com,56,Bogotá,26/05/2022,Adulto Medio
+CL-040,Nicolás,Mejía,Nicolás. Mejía@gmail.com,24,Medellin,29/09/2020,Adulto Joven
+CL-041,Mateo,Ortega,Mateo. Ortega@gmail.com,66,Bucaramanga,26/12/2021,Adulto Mayor
+CL-042,Gabriela,Gómez,Gabriela. Gómez@gmail.com,54,Bogotá,12/02/2023,Adulto Medio
+CL-043,Mariana,Vargas,Mariana. Vargas@gmail.com,51,Medellín,04/08/2021,Adulto Medio
+CL-044,Jorge,Rodríguez,Jorge. Rodríguez@gmail.com,24,Bogotá,27/02/2023,Adulto Joven
+CL-045,Nicolás,Rodríguez,Nicolás. Rodríguez@gmail.com,25,Medellín,28/05/2020,Adulto Joven
+CL-046,Sebastián,León,Sebastián. León@gmail.com,48,Bogotá,03/05/2021,Adulto Medio
+CL-047,Alejandro,Castro,Alejandro. Castro@gmail.com,42,Bogotá,21/02/2022,Adulto Medio
+CL-048,Daniela,Mejía,Daniela. Mejía@gmail.com,44,Cartagena,05/10/2023,Adulto Medio
+CL-049,Sebastián,Salazar,Sebastián. Salazar@gmail.com,46,Medellín,25/09/2021,Adulto Medio
+CL-050,Nicolás,Romero,Nicolás. Romero@gmail.com,22,Bogotá,05/08/2020,Adulto Joven
+CL-051,Camila,Guerrero,Camila. Guerrero@gmail.com,30,Medellín,31/07/2020,Adulto
+CL-052,Diego,Torres,Diego. Torres@gmail.com,36,Bogotá,15/10/2023,Adulto
+CL-053,Nicolás,Pineda,Nicolás. Pineda@gmail.com,56,Cartagena,25/04/2021,Adulto Medio
+CL-054,Santiago,Mejía,Santiago. Mejía@gmail.com,52,Bogotá,01/06/2022,Adulto Medio
+CL-055,Valentina,Pérez,Valentina. Pérez@gmail.com,55,Cali,12/06/2020,Adulto Medio
+CL-056,Isabella,Moreno,Isabella. Moreno@gmail.com,52,Bogotá,21/03/2023,Adulto Medio
+CL-057,Laura,Romero,Laura. Romero@gmail.com,40,Medellín,18/08/2022,Adulto Medio
+CL-058,Camila,Castro,Camila. Castro@gmail.com,52,Bogotá,05/09/2021,Adulto Medio
+CL-059,Alejandro,Cárdenas,Alejandro. Cárdenas@gmail.com,49,Pereira,30/05/2023,Adulto Medio
+CL-060,Mateo,Pineda,Mateo. Pineda@gmail.com,42,Santa marta,08/06/2020,Adulto Medio
+CL-061,Isabella,Mejía,Isabella. Mejía@gmail.com,68,Bogotá,26/02/2021,Adulto Mayor
+CL-062,David,Sánchez,David. Sánchez@gmail.com,38,Medellín,27/07/2023,Adulto
+CL-063,Nicolás,Ortega,Nicolás. Ortega@gmail.com,49,Bucaramanga,24/06/2020,Adulto Medio
+CL-064,Samuel,Mejía,Samuel. Mejía@gmail.com,33,Medellín,25/08/2022,Adulto
+CL-065,Daniela,Martínez,Daniela. Martínez@gmail.com,28,Bogotá,20/08/2020,Adulto Joven
+CL-066,María,González,María. González@gmail.com,45,Ibague,10/05/2021,Adulto Medio
+CL-067,Valentina,Guerrero,Valentina. Guerrero@gmail.com,49,Bogotá,19/04/2022,Adulto Medio
+CL-068,Tomás,Pineda,Tomás. Pineda@gmail.com,38,Cali,16/03/2022,Adulto
+CL-069,David,García,David. García@gmail.com,42,Bucaramanga,04/06/2023,Adulto Medio
+CL-070,Diego,Peña,Diego. Peña@gmail.com,21,Bogotá,14/05/2020,Adulto Joven
+CL-071,Sofía,Vargas,Sofía. Vargas@gmail.com,44,Bogotá,12/04/2023,Adulto Medio
+CL-072,Daniela,Mejía,Daniela. Mejía@gmail.com,50,Pereira,29/08/2022,Adulto Medio
+CL-073,Gabriela,León,Gabriela. León@gmail.com,61,Barranquilla,18/08/2021,Adulto Mayor
+CL-074,Andrés,Camacho,Andrés. Camacho@gmail.com,69,Bogotá,27/11/2022,Adulto Mayor
+CL-075,Juan,Rojas,Juan. Rojas@gmail.com,31,Envigado,13/11/2022,Adulto
+CL-076,Gabriela,Mejía,Gabriela. Mejía@gmail.com,25,Bogotá,15/08/2023,Adulto Joven
+CL-077,Samuel,Navarro,Samuel. Navarro@gmail.com,30,Bucaramanga,01/10/2020,Adulto
+CL-078,Paula,Guerrero,Paula. Guerrero@gmail.com,58,Barranquilla,22/09/2020,Adulto Medio
+CL-079,Sara,Cortés,Sara. Cortés@gmail.com,52,Manizales,29/01/2023,Adulto Medio
+CL-080,Daniela,Moreno,Daniela. Moreno@gmail.com,48,Bogotá,13/09/2021,Adulto Medio
+CL-081,Tomás,García,Tomás. García@gmail.com,48,Cali,12/05/2020,Adulto Medio
+CL-082,Juan,Guerrero,Juan. Guerrero@gmail.com,33,Cali,20/08/2023,Adulto
+CL-083,Mariana,Martínez,Mariana. Martínez@gmail.com,39,Bogotá,27/07/2021,Adulto
+CL-084,Mateo,Rodríguez,Mateo. Rodríguez@gmail.com,51,Bogotá,28/05/2020,Adulto Medio
+CL-085,Sara,Camacho,Sara. Camacho@gmail.com,34,Cúcuta,13/05/2023,Adulto
+CL-086,Alejandro,Ramírez,Alejandro. Ramírez@gmail.com,43,Bogotá,21/01/2023,Adulto Medio
+CL-087,Sebastián,García,Sebastián. García@gmail.com,49,Cartagena,16/02/2020,Adulto Medio
+CL-088,David,Castro,David. Castro@gmail.com,53,Medellín,16/02/2020,Adulto Medio
+CL-089,Sara,Rojas,Sara. Rojas@gmail.com,51,Medellín,15/01/2023,Adulto Medio
+CL-090,Diego,Navarro,Diego. Navarro@gmail.com,56,Medellín,03/12/2023,Adulto Medio
+CL-091,Juan,Sánchez,Juan. Sánchez@gmail.com,37,Cali,03/10/2023,Adulto
+CL-092,Mateo,Romero,Mateo. Romero@gmail.com,61,Manizales,30/07/2020,Adulto Mayor
+CL-093,Samuel,Pérez,Samuel. Pérez@gmail.com,62,Cúcuta,31/10/2020,Adulto Mayor
+CL-094,María,Vargas,María. Vargas@gmail.com,50,Bogotá,01/03/2022,Adulto Medio
+CL-095,Santiago,Navarro,Santiago. Navarro@gmail.com,36,Manizales,04/09/2022,Adulto
+CL-096,Andrés,Rodríguez,Andrés. Rodríguez@gmail.com,38,Cúcuta,27/12/2020,Adulto
+CL-097,Alejandro,Ortega,Alejandro. Ortega@gmail.com,61,Marinilla,12/05/2022,Adulto Mayor
+CL-098,Alejandro,Ortega,Alejandro. Ortega@gmail.com,28,Bogotá,29/06/2020,Adulto Joven
+CL-099,Kevin,León,Kevin. León@gmail.com,39,Pereira,13/11/2021,Adulto
+CL-100,Laura,Suárez,Laura. Suárez@gmail.com,59,Bogotá,01/02/2020,Adulto Medio
+CL-101,Paula,Sánchez,Paula. Sánchez@gmail.com,30,Bogotá,19/11/2022,Adulto
+CL-102,Carlos,Navarro,Carlos. Navarro@gmail.com,58,Cali,03/01/2022,Adulto Medio
+CL-103,Camila,Camacho,Camila. Camacho@gmail.com,34,Barranquilla,10/11/2020,Adulto
+CL-104,Camila,Ramírez,Camila. Ramírez@gmail.com,53,Medellín,07/02/2021,Adulto Medio
+CL-105,Tomás,Navarro,Tomás. Navarro@gmail.com,47,Bogotá,23/05/2023,Adulto Medio
+CL-106,Mateo,Ramírez,Mateo. Ramírez@gmail.com,30,Cúcuta,02/10/2021,Adulto
+CL-107,Juan,Romero,Juan. Romero@gmail.com,68,Bogotá,29/07/2020,Adulto Mayor
+CL-108,Daniela,Mejía,Daniela. Mejía@gmail.com,46,Pereira,07/05/2022,Adulto Medio
+CL-109,Carlos,Moreno,Carlos. Moreno@gmail.com,60,Bogotá,17/11/2023,Adulto Medio
+CL-110,Camila,Pineda,Camila. Pineda@gmail.com,53,Cartagena,25/04/2023,Adulto Medio
+CL-111,Paula,Pineda,Paula. Pineda@gmail.com,41,Bogotá,10/12/2021,Adulto Medio
+CL-112,Sara,Díaz,Sara. Díaz@gmail.com,47,Bogotá,11/11/2022,Adulto Medio
+CL-113,Santiago,Gómez,Santiago. Gómez@gmail.com,55,Bogotá,09/02/2023,Adulto Medio
+CL-114,Jorge,Peña,Jorge. Peña@gmail.com,65,Bogotá,14/01/2022,Adulto Mayor
+CL-115,David,Torres,David. Torres@gmail.com,49,Medellín,22/11/2023,Adulto Medio
+CL-116,Santiago,Pineda,Santiago. Pineda@gmail.com,22,Bogotá,07/10/2020,Adulto Joven
+CL-117,Tomás,Gómez,Tomás. Gómez@gmail.com,37,Bogotá,28/04/2023,Adulto
+CL-118,Daniela,Guerrero,Daniela. Guerrero@gmail.com,22,Barranquilla,31/10/2021,Adulto Joven
+CL-119,Nicolás,González,Nicolás. González@gmail.com,30,Bucaramanga,04/11/2021,Adulto
+CL-120,Paula,Moreno,Paula. Moreno@gmail.com,38,Manizales,22/10/2023,Adulto
+CL-121,Diego,Camacho,Diego. Camacho@gmail.com,24,Bogotá,24/02/2022,Adulto Joven
+CL-122,Sara,Martínez,Sara. Martínez@gmail.com,47,Medellín,06/08/2022,Adulto Medio
+CL-123,Laura,Navarro,Laura. Navarro@gmail.com,67,Bogotá,20/06/2021,Adulto Mayor
+CL-124,Natalia,Vargas,Natalia. Vargas@gmail.com,50,Bogotá,05/04/2021,Adulto Medio
+CL-125,Sara,Vargas,Sara. Vargas@gmail.com,57,Bogotá,10/08/2022,Adulto Medio
+CL-126,Alejandro,Camacho,Alejandro. Camacho@gmail.com,33,Bogotá,15/09/2020,Adulto
+CL-127,Natalia,Vargas,Natalia. Vargas@gmail.com,23,Bogotá,31/08/2022,Adulto Joven
+CL-128,Paula,Herrera,Paula. Herrera@gmail.com,38,Cartagena,23/11/2021,Adulto
+CL-129,Daniela,Guerrero,Daniela. Guerrero@gmail.com,43,Bogotá,21/09/2020,Adulto Medio
+CL-130,Kevin,Guerrero,Kevin. Guerrero@gmail.com,20,Barranquilla,28/08/2023,Adulto Joven
+CL-131,Mariana,Martínez,Mariana. Martínez@gmail.com,32,Bogotá,13/02/2022,Adulto
+CL-132,Laura,Cortés,Laura. Cortés@gmail.com,34,Bogotá,08/08/2022,Adulto
+CL-133,Felipe,Rojas,Felipe. Rojas@gmail.com,39,Cali,12/10/2020,Adulto
+CL-134,Samuel,Torres,Samuel. Torres@gmail.com,26,Bogotá,24/08/2023,Adulto Joven
+CL-135,Samuel,Cortés,Samuel. Cortés@gmail.com,32,Bogotá,26/06/2021,Adulto
+CL-136,Manuela,Ramírez,Manuela. Ramírez@gmail.com,52,Cúcuta,17/10/2022,Adulto Medio
+CL-137,Natalia,Camacho,Natalia. Camacho@gmail.com,56,Bogotá,09/08/2020,Adulto Medio
+CL-138,Sara,Salazar,Sara. Salazar@gmail.com,48,Cali,12/08/2023,Adulto Medio
+CL-139,Alejandro,Moreno,Alejandro. Moreno@gmail.com,34,Bogotá,18/11/2023,Adulto
+CL-140,Natalia,León,Natalia. León@gmail.com,58,Medellin,16/06/2023,Adulto Medio
+CL-141,María,Ramírez,María. Ramírez@gmail.com,23,Bucaramanga,18/06/2022,Adulto Joven
+CL-142,Isabella,Romero,Isabella. Romero@gmail.com,64,Bogotá,07/09/2021,Adulto Mayor
+CL-143,Juan,Pineda,Juan. Pineda@gmail.com,63,Medellín,12/08/2023,Adulto Mayor
+CL-144,David,Mendoza,David. Mendoza@gmail.com,29,Bogotá,14/11/2021,Adulto
+CL-145,Alejandro,López,Alejandro. López@gmail.com,52,Medellín,08/01/2020,Adulto Medio
+CL-146,Natalia,García,Natalia. García@gmail.com,29,Bogotá,01/01/2022,Adulto
+CL-147,Kevin,Romero,Kevin. Romero@gmail.com,45,Bogotá,28/05/2022,Adulto Medio
+CL-148,Natalia,Navarro,Natalia. Navarro@gmail.com,22,Cartagena,13/05/2023,Adulto Joven
+CL-149,Carlos,García,Carlos. García@gmail.com,55,Medellín,25/03/2023,Adulto Medio
+CL-150,Camila,Camacho,Camila. Camacho@gmail.com,58,Bogotá,12/11/2022,Adulto Medio
+CL-151,Carlos,Sánchez,Carlos. Sánchez@gmail.com,32,Medellín,11/07/2022,Adulto
+CL-152,Juan,Camacho,Juan. Camacho@gmail.com,24,Bogotá,03/11/2021,Adulto Joven
+CL-153,Samuel,Ortega,Samuel. Ortega@gmail.com,30,Cartagena,16/07/2023,Adulto
+CL-154,Juan,Gómez,Juan. Gómez@gmail.com,24,Bogotá,07/12/2021,Adulto Joven
+CL-155,Juliana,Peña,Juliana. Peña@gmail.com,38,Cali,15/03/2020,Adulto
+CL-156,Mariana,Castro,Mariana. Castro@gmail.com,69,Bogotá,01/01/2022,Adulto Mayor
+CL-157,Santiago,Camacho,Santiago. Camacho@gmail.com,35,Medellín,22/02/2020,Adulto
+CL-158,Santiago,Vargas,Santiago. Vargas@gmail.com,21,Bogotá,28/04/2020,Adulto Joven
+CL-159,Tomás,Pérez,Tomás. Pérez@gmail.com,56,Pereira,08/06/2022,Adulto Medio
+CL-160,Isabella,Torres,Isabella. Torres@gmail.com,46,Santa marta,20/01/2023,Adulto Medio
+CL-161,Kevin,Romero,Kevin. Romero@gmail.com,51,Bogotá,15/07/2023,Adulto Medio
+CL-162,Juan,Salazar,Juan. Salazar@gmail.com,59,Medellín,08/01/2023,Adulto Medio
+CL-163,Valentina,Salazar,Valentina. Salazar@gmail.com,22,Bucaramanga,09/12/2022,Adulto Joven
+CL-164,Jorge,Cortés,Jorge. Cortés@gmail.com,26,Medellín,25/04/2021,Adulto Joven
+CL-165,Laura,Suárez,Laura. Suárez@gmail.com,59,Bogotá,02/08/2020,Adulto Medio
+CL-166,Mariana,Sánchez,Mariana. Sánchez@gmail.com,37,Ibague,26/11/2022,Adulto
+CL-167,Juliana,León,Juliana. León@gmail.com,66,Bogotá,08/02/2021,Adulto Mayor
+CL-168,Diego,Camacho,Diego. Camacho@gmail.com,22,Cali,23/11/2022,Adulto Joven
+CL-169,Tomás,Herrera,Tomás. Herrera@gmail.com,46,Bucaramanga,15/07/2021,Adulto Medio
+CL-170,Camila,López,Camila. López@gmail.com,35,Bogotá,26/06/2022,Adulto
+CL-171,Juan,Peña,Juan. Peña@gmail.com,40,Bogotá,20/12/2020,Adulto Medio
+CL-172,Juan,Pineda,Juan. Pineda@gmail.com,23,Pereira,22/03/2022,Adulto Joven
+CL-173,Valentina,Mejía,Valentina. Mejía@gmail.com,32,Barranquilla,26/03/2023,Adulto
+CL-174,Mariana,Díaz,Mariana. Díaz@gmail.com,67,Bogotá,03/08/2020,Adulto Mayor
+CL-175,Laura,Torres,Laura. Torres@gmail.com,36,Envigado,21/09/2023,Adulto
+CL-176,Valentina,Cárdenas,Valentina. Cárdenas@gmail.com,42,Bogotá,25/08/2023,Adulto Medio
+CL-177,Jorge,Moreno,Jorge. Moreno@gmail.com,54,Bucaramanga,10/05/2020,Adulto Medio
+CL-178,Andrés,Ortega,Andrés. Ortega@gmail.com,42,Barranquilla,04/12/2020,Adulto Medio
+CL-179,Mariana,Guerrero,Mariana. Guerrero@gmail.com,27,Manizales,16/06/2020,Adulto Joven
+CL-180,Mariana,Mejía,Mariana. Mejía@gmail.com,55,Bogotá,06/08/2020,Adulto Medio
+CL-181,Daniela,Romero,Daniela. Romero@gmail.com,56,Cali,31/01/2022,Adulto Medio
+CL-182,David,Mendoza,David. Mendoza@gmail.com,67,Cali,19/01/2023,Adulto Mayor
+CL-183,Carlos,Ramírez,Carlos. Ramírez@gmail.com,30,Bogotá,30/10/2020,Adulto
+CL-184,Juliana,Pineda,Juliana. Pineda@gmail.com,58,Bogotá,22/07/2023,Adulto Medio
+CL-185,Jorge,Salazar,Jorge. Salazar@gmail.com,45,Cúcuta,17/05/2022,Adulto Medio
+CL-186,David,Moreno,David. Moreno@gmail.com,42,Bogotá,04/04/2020,Adulto Medio
+CL-187,Samuel,Pérez,Samuel. Pérez@gmail.com,65,Cartagena,22/11/2023,Adulto Mayor
+CL-188,Juliana,Cortés,Juliana. Cortés@gmail.com,55,Medellín,11/09/2020,Adulto Medio
+CL-189,Juliana,Martínez,Juliana. Martínez@gmail.com,36,Medellín,06/05/2021,Adulto
+CL-190,Camila,Sánchez,Camila. Sánchez@gmail.com,29,Medellín,12/08/2023,Adulto
+CL-191,Alejandro,Moreno,Alejandro. Moreno@gmail.com,67,Cali,06/01/2022,Adulto Mayor
+CL-192,Jorge,García,Jorge. García@gmail.com,46,Manizales,31/07/2020,Adulto Medio
+CL-193,Juan,Camacho,Juan. Camacho@gmail.com,67,Cúcuta,28/12/2020,Adulto Mayor
+CL-194,David,Peña,David. Peña@gmail.com,39,Bogotá,16/01/2020,Adulto
+CL-195,Nicolás,Peña,Nicolás. Peña@gmail.com,32,Manizales,24/08/2020,Adulto
+CL-196,Tomás,Gómez,Tomás. Gómez@gmail.com,40,Cúcuta,14/04/2020,Adulto Medio
+CL-197,Juan,Suárez,Juan. Suárez@gmail.com,24,Marinilla,16/10/2022,Adulto Joven
+CL-198,Carlos,Herrera,Carlos. Herrera@gmail.com,60,Bogotá,05/07/2022,Adulto Medio
+CL-199,Paula,León,Paula. León@gmail.com,57,Pereira,27/01/2023,Adulto Medio
+CL-200,Isabella,González,Isabella. González@gmail.com,32,Bogotá,20/12/2021,Adulto
+CL-201,Nicolás,Mejía,Nicolás. Mejía@gmail.com,45,Bogotá,26/06/2021,Adulto Medio
+CL-202,Isabella,Rodríguez,Isabella. Rodríguez@gmail.com,32,Cali,22/07/2023,Adulto
+CL-203,Isabella,Moreno,Isabella. Moreno@gmail.com,20,Barranquilla,19/07/2020,Adulto Joven
+CL-204,Gabriela,Mendoza,Gabriela. Mendoza@gmail.com,36,Medellín,15/10/2022,Adulto
+CL-205,Gabriela,Gómez,Gabriela. Gómez@gmail.com,52,Bogotá,25/05/2022,Adulto Medio
+CL-206,Andrés,Castro,Andrés. Castro@gmail.com,39,Cúcuta,09/03/2021,Adulto
+CL-207,Tomás,Peña,Tomás. Peña@gmail.com,69,Bogotá,22/08/2020,Adulto Mayor
+CL-208,Laura,Salazar,Laura. Salazar@gmail.com,40,Pereira,19/07/2023,Adulto Medio
+CL-209,Alejandro,Castro,Alejandro. Castro@gmail.com,65,Bogotá,17/09/2020,Adulto Mayor
+CL-210,Santiago,León,Santiago. León@gmail.com,29,Cartagena,24/11/2022,Adulto
+CL-211,Alejandro,Rojas,Alejandro. Rojas@gmail.com,57,Bogotá,15/09/2023,Adulto Medio
+CL-212,María,Cárdenas,María. Cárdenas@gmail.com,45,Bogotá,03/01/2022,Adulto Medio
+CL-213,Tomás,Guerrero,Tomás. Guerrero@gmail.com,62,Bogotá,27/09/2021,Adulto Mayor
+CL-214,Carlos,Mejía,Carlos. Mejía@gmail.com,66,Bogotá,04/12/2020,Adulto Mayor
+CL-215,Sara,Ramírez,Sara. Ramírez@gmail.com,46,Medellín,26/08/2020,Adulto Medio
+CL-216,Samuel,León,Samuel. León@gmail.com,46,Bogotá,16/02/2021,Adulto Medio
+CL-217,Jorge,Peña,Jorge. Peña@gmail.com,34,Bogotá,08/08/2021,Adulto
+CL-218,Isabella,Salazar,Isabella. Salazar@gmail.com,50,Barranquilla,31/05/2023,Adulto Medio
+CL-219,Kevin,Cárdenas,Kevin. Cárdenas@gmail.com,37,Bucaramanga,03/03/2021,Adulto
+CL-220,Alejandro,Moreno,Alejandro. Moreno@gmail.com,45,Manizales,09/11/2022,Adulto Medio
+CL-221,David,Ramírez,David. Ramírez@gmail.com,54,Bogotá,21/02/2022,Adulto Medio
+CL-222,Samuel,Suárez,Samuel. Suárez@gmail.com,47,Medellín,15/10/2021,Adulto Medio
+CL-223,Mariana,Herrera,Mariana. Herrera@gmail.com,65,Bogotá,19/04/2023,Adulto Mayor
+CL-224,Valentina,Castro,Valentina. Castro@gmail.com,26,Bogotá,08/07/2023,Adulto Joven
+CL-225,Manuela,Mejía,Manuela. Mejía@gmail.com,31,Bogotá,20/10/2023,Adulto
+CL-226,Felipe,Herrera,Felipe. Herrera@gmail.com,61,Bogotá,05/10/2022,Adulto Mayor
+CL-227,Nicolás,León,Nicolás. León@gmail.com,37,Bogotá,05/10/2020,Adulto
+CL-228,Juan,Peña,Juan. Peña@gmail.com,62,Cartagena,02/10/2023,Adulto Mayor
+CL-229,Sebastián,León,Sebastián. León@gmail.com,44,Bogotá,09/09/2022,Adulto Medio
+CL-230,David,Moreno,David. Moreno@gmail.com,43,Barranquilla,14/04/2022,Adulto Medio
+CL-231,Mateo,López,Mateo. López@gmail.com,44,Bogotá,01/02/2021,Adulto Medio
+CL-232,David,Navarro,David. Navarro@gmail.com,47,Bogotá,13/06/2020,Adulto Medio
+CL-233,María,Cárdenas,María. Cárdenas@gmail.com,20,Cali,09/08/2021,Adulto Joven
+CL-234,David,Moreno,David. Moreno@gmail.com,65,Bogotá,30/06/2021,Adulto Mayor
+CL-235,Laura,Pérez,Laura. Pérez@gmail.com,30,Bogotá,07/10/2021,Adulto
+CL-236,Juliana,Vargas,Juliana. Vargas@gmail.com,21,Cúcuta,06/08/2023,Adulto Joven
+CL-237,Sofía,Cárdenas,Sofía. Cárdenas@gmail.com,50,Bogotá,23/11/2021,Adulto Medio
+CL-238,Mariana,Pérez,Mariana. Pérez@gmail.com,39,Cali,26/08/2023,Adulto
+CL-239,Kevin,García,Kevin. García@gmail.com,53,Bogotá,24/08/2022,Adulto Medio
+CL-240,Valentina,García,Valentina. García@gmail.com,21,Medellin,14/12/2022,Adulto Joven
+CL-241,Laura,Ramírez,Laura. Ramírez@gmail.com,47,Bucaramanga,19/11/2021,Adulto Medio
+CL-242,Felipe,Gómez,Felipe. Gómez@gmail.com,25,Bogotá,06/02/2023,Adulto Joven
+CL-243,Carlos,Sánchez,Carlos. Sánchez@gmail.com,41,Medellín,04/11/2022,Adulto Medio
+CL-244,Camila,Herrera,Camila. Herrera@gmail.com,46,Bogotá,19/08/2023,Adulto Medio
+CL-245,Samuel,Rodríguez,Samuel. Rodríguez@gmail.com,31,Medellín,13/09/2023,Adulto
+CL-246,Santiago,González,Santiago. González@gmail.com,49,Bogotá,24/03/2021,Adulto Medio
+CL-247,Juan,Moreno,Juan. Moreno@gmail.com,44,Bogotá,05/03/2020,Adulto Medio
+CL-248,Gabriela,Sánchez,Gabriela. Sánchez@gmail.com,48,Cartagena,30/01/2022,Adulto Medio
+CL-249,Carlos,López,Carlos. López@gmail.com,69,Medellín,08/07/2020,Adulto Mayor
+CL-250,Mateo,Sánchez,Mateo. Sánchez@gmail.com,34,Bogotá,03/09/2021,Adulto
+CL-251,David,Camacho,David. Camacho@gmail.com,53,Medellín,28/10/2021,Adulto Medio
+CL-252,Laura,Ortega,Laura. Ortega@gmail.com,57,Bogotá,15/01/2023,Adulto Medio
+CL-253,Paula,Sánchez,Paula. Sánchez@gmail.com,30,Cartagena,22/12/2020,Adulto
+CL-254,Santiago,Navarro,Santiago. Navarro@gmail.com,44,Bogotá,04/03/2023,Adulto Medio
+CL-255,Sara,Pineda,Sara. Pineda@gmail.com,53,Cali,19/01/2023,Adulto Medio
+CL-256,Paula,Moreno,Paula. Moreno@gmail.com,26,Bogotá,16/06/2023,Adulto Joven
+CL-257,Alejandro,Romero,Alejandro. Romero@gmail.com,66,Medellín,02/05/2021,Adulto Mayor
+CL-258,Sara,Ortega,Sara. Ortega@gmail.com,22,Bogotá,07/07/2021,Adulto Joven
+CL-259,Tomás,Vargas,Tomás. Vargas@gmail.com,39,Pereira,02/05/2021,Adulto
+CL-260,Juan,García,Juan. García@gmail.com,45,Santa marta,30/05/2020,Adulto Medio
+CL-261,Gabriela,Castro,Gabriela. Castro@gmail.com,68,Bogotá,18/04/2020,Adulto Mayor
+CL-262,Felipe,Ramírez,Felipe. Ramírez@gmail.com,38,Medellín,19/05/2023,Adulto
+CL-263,David,Navarro,David. Navarro@gmail.com,53,Bucaramanga,27/12/2020,Adulto Medio
+CL-264,Diego,Pineda,Diego. Pineda@gmail.com,61,Medellín,26/06/2022,Adulto Mayor
+CL-265,Juliana,Cárdenas,Juliana. Cárdenas@gmail.com,65,Bogotá,11/04/2022,Adulto Mayor
+CL-266,Carlos,González,Carlos. González@gmail.com,56,Ibague,02/04/2021,Adulto Medio
+CL-267,Juan,Mejía,Juan. Mejía@gmail.com,57,Bogotá,29/07/2021,Adulto Medio
+CL-268,Mateo,Cárdenas,Mateo. Cárdenas@gmail.com,49,Cali,03/05/2023,Adulto Medio
+CL-269,Sebastián,Ramírez,Sebastián. Ramírez@gmail.com,52,Bucaramanga,09/02/2020,Adulto Medio
+CL-270,Tomás,Mendoza,Tomás. Mendoza@gmail.com,49,Bogotá,18/09/2020,Adulto Medio
+CL-271,Natalia,Ortega,Natalia. Ortega@gmail.com,30,Bogotá,13/04/2021,Adulto
+CL-272,Paula,Mendoza,Paula. Mendoza@gmail.com,33,Pereira,06/01/2021,Adulto
+CL-273,Samuel,León,Samuel. León@gmail.com,61,Barranquilla,22/01/2022,Adulto Mayor
+CL-274,Valentina,Vargas,Valentina. Vargas@gmail.com,31,Bogotá,23/07/2020,Adulto
+CL-275,Isabella,Mendoza,Isabella. Mendoza@gmail.com,69,Envigado,14/03/2020,Adulto Mayor
+CL-276,Sara,López,Sara. López@gmail.com,31,Bogotá,01/04/2020,Adulto
+CL-277,Carlos,León,Carlos. León@gmail.com,53,Bucaramanga,16/12/2020,Adulto Medio
+CL-278,Natalia,Torres,Natalia. Torres@gmail.com,42,Barranquilla,08/12/2023,Adulto Medio
+CL-279,Valentina,Díaz,Valentina. Díaz@gmail.com,61,Manizales,16/09/2022,Adulto Mayor
+CL-280,Gabriela,López,Gabriela. López@gmail.com,49,Bogotá,06/01/2022,Adulto Medio
+CL-281,Juliana,Díaz,Juliana. Díaz@gmail.com,59,Cali,05/10/2023,Adulto Medio
+CL-282,Laura,Rojas,Laura. Rojas@gmail.com,39,Cali,07/06/2022,Adulto
+CL-283,Sofía,Sánchez,Sofía. Sánchez@gmail.com,26,Bogotá,10/08/2021,Adulto Joven
+CL-284,Carlos,Sánchez,Carlos. Sánchez@gmail.com,32,Bogotá,15/03/2022,Adulto
+CL-285,Andrés,Guerrero,Andrés. Guerrero@gmail.com,50,Cúcuta,15/06/2022,Adulto Medio
+CL-286,Mateo,Cárdenas,Mateo. Cárdenas@gmail.com,68,Bogotá,03/06/2023,Adulto Mayor
+CL-287,Juliana,Salazar,Juliana. Salazar@gmail.com,63,Cartagena,17/06/2023,Adulto Mayor
+CL-288,Jorge,Sánchez,Jorge. Sánchez@gmail.com,62,Medellín,18/10/2022,Adulto Mayor
+CL-289,Carlos,León,Carlos. León@gmail.com,35,Medellín,27/12/2020,Adulto
+CL-290,Valentina,Martínez,Valentina. Martínez@gmail.com,26,Medellín,06/10/2023,Adulto Joven
+CL-291,Isabella,Herrera,Isabella. Herrera@gmail.com,55,Cali,29/05/2022,Adulto Medio
+CL-292,Samuel,Sánchez,Samuel. Sánchez@gmail.com,34,Manizales,22/04/2020,Adulto
+CL-293,Felipe,Moreno,Felipe. Moreno@gmail.com,39,Cúcuta,18/05/2022,Adulto
+CL-294,Lina,Herrera,Lina. Herrera@gmail.com,53,Bogotá,07/06/2023,Adulto Medio
+CL-295,Mariana,Ortega,Mariana. Ortega@gmail.com,63,Manizales,14/07/2023,Adulto Mayor
+CL-296,Jorge,Martínez,Jorge. Martínez@gmail.com,31,Cúcuta,26/05/2021,Adulto
+CL-297,Nicolás,Cortés,Nicolás. Cortés@gmail.com,56,Marinilla,18/06/2022,Adulto Medio
+CL-298,Gabriela,Rojas,Gabriela. Rojas@gmail.com,23,Bogotá,14/03/2021,Adulto Joven
+CL-299,Samuel,Pérez,Samuel. Pérez@gmail.com,46,Pereira,24/01/2023,Adulto Medio
+CL-300,Manuela,Torres,Manuela. Torres@gmail.com,38,Bogotá,08/08/2020,Adulto
