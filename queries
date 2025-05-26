@@ -1,5 +1,84 @@
-SELECT
-    
-FROM 
+-- Recencia: ultima de fecha de compra por cliente.
 
- 
+SELECT 
+    cliente_id,
+    MAX(fecha_compra) AS ultima_compra,
+    '2024-12-31'- MAX(fecha_compra) AS recencia_dias
+FROM
+    ventas
+WHERE   
+    fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+GROUP BY
+    cliente_id 
+ORDER BY
+    ultima_compra DESC       
+LIMIT 10;  
+
+
+-- Frecuencia: numero de compras por cliente.
+
+SELECT
+    cliente_id,
+    COUNT(venta_id) AS total_compra
+FROM
+     ventas_filtradas
+WHERE
+    fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+GROUP BY
+    cliente_id;
+
+-- Monetario: monto total gastado por cliente.
+
+SELECT
+    cliente_id,
+    SUM(monto) AS monto_total
+FROM
+    ventas_filtradas
+WHERE
+     fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+GROUP BY
+    cliente_id;  
+
+-- Unificación de las métricas RFM (Recencia, Frecuencia, Monetario) en una sola tabla.
+-- Esto facilita el análisis comparativo y posterior segmentación por cliente.    
+
+WITH recencia_cte AS (
+    SELECT 
+        cliente_id,
+        MAX(fecha_compra) AS ultima_compra,
+        '2024-12-31' - MAX(fecha_compra) AS recencia_dias
+    FROM ventas_filtradas
+    WHERE fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+    GROUP BY cliente_id
+),
+frecuencia_cte AS (
+    SELECT 
+        cliente_id,
+        COUNT(venta_id) AS total_compras
+    FROM ventas_filtradas
+    WHERE fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+    GROUP BY cliente_id
+),
+monetary_cte AS (
+    SELECT 
+        cliente_id,
+        SUM(monto) AS monto_total
+    FROM ventas_filtradas
+    WHERE fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+    GROUP BY cliente_id
+)
+
+SELECT 
+    r.cliente_id,
+    r.ultima_compra,
+    r.recencia_dias,
+    f.total_compras,
+    m.monto_total
+FROM 
+    recencia_cte r
+JOIN 
+    frecuencia_cte f ON r.cliente_id = f.cliente_id
+JOIN 
+    monetary_cte m ON r.cliente_id = m.cliente_id
+ORDER BY 
+    r.recencia_dias;
