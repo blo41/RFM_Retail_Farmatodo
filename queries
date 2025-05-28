@@ -11,8 +11,7 @@ WHERE
 GROUP BY
     cliente_id 
 ORDER BY
-    ultima_compra DESC       
-LIMIT 10;  
+    ultima_compra DESC;       
 
 
 -- Frecuencia: numero de compras por cliente.
@@ -27,6 +26,7 @@ WHERE
 GROUP BY
     cliente_id;
 
+
 -- Monetario: monto total gastado por cliente.
 
 SELECT
@@ -38,6 +38,7 @@ WHERE
      fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
 GROUP BY
     cliente_id;  
+
 
 -- Unificación de las métricas RFM (Recencia, Frecuencia, Monetario) en una sola tabla.
 -- Esto facilita el análisis comparativo y posterior segmentación por cliente.    
@@ -82,3 +83,120 @@ JOIN
     monetary_cte m ON r.cliente_id = m.cliente_id
 ORDER BY 
     r.recencia_dias;
+
+
+-- Identificacion de la primera compra para asignar una cohorte.
+
+SELECT 
+    cliente_id,
+    MIN(fecha_compra) AS primera_compra,
+    TO_CHAR(MIN(fecha_compra), 'YYYY-MM') AS cohorte_mensual 
+FROM
+    ventas
+WHERE   
+    fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+GROUP BY
+    cliente_id; 
+
+
+-- Retorno dentro de 3 y 6 meses luego de la primera compra
+
+SELECT 
+    v1.cliente_id,
+    MIN(v1.fecha_compra) AS primera_compra,
+    CASE 
+        WHEN MIN(v2.fecha_compra) FILTER (WHERE v2.fecha_compra <= v1.fecha_compra + INTERVAL '3 months') IS NOT NULL 
+        THEN true ELSE false 
+    END AS retencion_3m,
+    CASE 
+        WHEN MIN(v2.fecha_compra) FILTER (WHERE v2.fecha_compra <= v1.fecha_compra + INTERVAL '6 months') IS NOT NULL 
+        THEN true ELSE false 
+    END AS retencion_6m
+FROM
+    ventas v1
+LEFT JOIN
+    ventas v2 ON v1.cliente_id = v2.cliente_id AND v2.fecha_compra > v1.fecha_compra
+GROUP BY 
+    v1.cliente_id;
+
+
+-- integracion de las métricas de retención para cada cliente en un solo conjunto.
+
+WITH primera_compra AS (
+    SELECT 
+        cliente_id,
+        MIN(fecha_compra) AS primera_compra
+    FROM ventas
+    WHERE fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+    GROUP BY cliente_id
+),
+
+retorno_3m AS (
+    SELECT DISTINCT v.cliente_id
+    FROM ventas v
+    JOIN primera_compra pc ON v.cliente_id = pc.cliente_id
+    WHERE v.fecha_compra > pc.primera_compra
+      AND v.fecha_compra <= pc.primera_compra + INTERVAL '3 months'
+),
+
+retorno_6m AS (
+    SELECT DISTINCT v.cliente_id
+    FROM ventas v
+    JOIN primera_compra pc ON v.cliente_id = pc.cliente_id
+    WHERE v.fecha_compra > pc.primera_compra
+      AND v.fecha_compra <= pc.primera_compra + INTERVAL '6 months'
+)
+
+SELECT
+    pc.cliente_id,
+    pc.primera_compra,
+    TO_CHAR(pc.primera_compra, 'YYYY-MM') AS cohorte,
+    CASE WHEN r3.cliente_id IS NOT NULL THEN TRUE ELSE FALSE END AS retorno_3m,
+    CASE WHEN r6.cliente_id IS NOT NULL THEN TRUE ELSE FALSE END AS retorno_6m
+FROM
+    primera_compra pc
+LEFT JOIN retorno_3m r3 ON pc.cliente_id = r3.cliente_id
+LEFT JOIN retorno_6m r6 ON pc.cliente_id = r6.cliente_id
+ORDER BY
+    pc.primera_compra;
+
+
+-- Resumen de retención por cohorte.
+
+WITH primera_compra AS (
+    SELECT 
+        cliente_id,
+        MIN(fecha_compra) AS primera_compra,
+        TO_CHAR(MIN(fecha_compra), 'YYYY-MM') AS cohorte
+    FROM ventas
+    WHERE fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
+    GROUP BY cliente_id
+),
+
+compras_cohorte AS (
+    SELECT
+        v.cliente_id,
+        p.cohorte,
+        DATE_PART('month', AGE(v.fecha_compra, p.primera_compra)) AS meses_desde_primera_compra
+    FROM ventas v
+    JOIN primera_compra p ON v.cliente_id = p.cliente_id
+    WHERE v.fecha_compra > p.primera_compra
+      AND v.fecha_compra <= p.primera_compra + INTERVAL '6 months'
+),
+
+retencion_mensual AS (
+    SELECT
+        cohorte,
+        meses_desde_primera_compra,
+        COUNT(DISTINCT cliente_id) AS clientes_retencion
+    FROM compras_cohorte
+    WHERE meses_desde_primera_compra BETWEEN 3 AND 6
+    GROUP BY cohorte, meses_desde_primera_compra
+)
+
+SELECT 
+    cohorte,
+    meses_desde_primera_compra AS mes,
+    clientes_retencion
+FROM retencion_mensual
+ORDER BY cohorte, mes;
