@@ -5,7 +5,7 @@ SELECT
     MAX(fecha_compra) AS ultima_compra,
     '2024-12-31'- MAX(fecha_compra) AS recencia_dias
 FROM
-    ventas
+    ventas_filtradas
 WHERE   
     fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
 GROUP BY
@@ -92,7 +92,7 @@ SELECT
     MIN(fecha_compra) AS primera_compra,
     TO_CHAR(MIN(fecha_compra), 'YYYY-MM') AS cohorte_mensual 
 FROM
-    ventas
+    ventas_filtradas
 WHERE   
     fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
 GROUP BY
@@ -113,9 +113,9 @@ SELECT
         THEN true ELSE false 
     END AS retencion_6m
 FROM
-    ventas v1
+    ventas_filtradas v1
 LEFT JOIN
-    ventas v2 ON v1.cliente_id = v2.cliente_id AND v2.fecha_compra > v1.fecha_compra
+    ventas_filtradas v2 ON v1.cliente_id = v2.cliente_id AND v2.fecha_compra > v1.fecha_compra
 GROUP BY 
     v1.cliente_id;
 
@@ -133,7 +133,7 @@ WITH primera_compra AS (
 
 retorno_3m AS (
     SELECT DISTINCT v.cliente_id
-    FROM ventas v
+    FROM ventas_filtradas v
     JOIN primera_compra pc ON v.cliente_id = pc.cliente_id
     WHERE v.fecha_compra > pc.primera_compra
       AND v.fecha_compra <= pc.primera_compra + INTERVAL '3 months'
@@ -141,7 +141,7 @@ retorno_3m AS (
 
 retorno_6m AS (
     SELECT DISTINCT v.cliente_id
-    FROM ventas v
+    FROM ventas_filtradas v
     JOIN primera_compra pc ON v.cliente_id = pc.cliente_id
     WHERE v.fecha_compra > pc.primera_compra
       AND v.fecha_compra <= pc.primera_compra + INTERVAL '6 months'
@@ -168,7 +168,7 @@ WITH primera_compra AS (
         cliente_id,
         MIN(fecha_compra) AS primera_compra,
         TO_CHAR(MIN(fecha_compra), 'YYYY-MM') AS cohorte
-    FROM ventas
+    FROM ventas_filtradas
     WHERE fecha_compra BETWEEN '2022-01-01' AND '2024-12-31'
     GROUP BY cliente_id
 ),
