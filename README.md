@@ -31,18 +31,24 @@ En un mercado altamente competitivo, entender el comportamiento de compra de sus
 2. **Creacion de la base datos y Carga archivos**
 
     - Se creo la base de datos en Postgresql y se conecto a Vscode para continuar con el flujo de trabajo desde ahi.
-    - Carga de archivos y organizacion en carpetas del proyecto.
-    - Creacion de las distintas tablas. puedes verlo aqui /queries.
+    - Estructura organizada del proyecto:
+     - `/csv_files`: Archivos fuente.
+     - `/sql_load`: Scripts para creación de tablas y carga inicial.
+     - `/queries`: Consultas de análisis y métricas clave.
+   - Carga y validación de datos mediante comandos `COPY`. puedes ver las cosnultas documentadas aqui `/queries`.
 
 4. **Elaboracion de consultas RFM Y Definicion de cohortes**
     
-    - Puedes verlas en /queries.
+   - Se elaboraron consultas SQL para asignar una cohorte mensual a cada cliente según su primera compra.
+   - Se implementaron cálculos para verificar la retención a los 3 y 6 meses desde la cohorte inicial.
+   - Todas las consultas están documentadas y disponibles en la carpeta `/queries` del repositorio.
 
-5. **Exportacion de tabla a Excel y Analisis exploratorio**
+5. **Exportacion a Excel y Analisis exploratorio**
 
-    - Exploracion de tendencias y patrones por medio de tablas dinamicas y simulacion extra de promedios de retencion de los cohortes.
+    - Exploracion preliminar de cohortes por medio de tablas dinamicas. 
+    - Simulacion complementaria de promedios de retencion de los cohortes.
 
-6. **Importacion de tabla a Power Bi**
+6. **Importacion de la tabla a Power Bi**
 
     
 
