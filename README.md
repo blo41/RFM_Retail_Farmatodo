@@ -24,15 +24,25 @@ En un mercado altamente competitivo, entender el comportamiento de compra de sus
     - Se creo la tabla de Excel de clientes con datos 100% simulados.
     - Creacion de la tabla de productos con datos 100% reales.
     - Tabla de ventas con datos basados en "fechas ancla" (temporadas) que garantizó que un porcentaje de las ventas siguieran un patrón más “realista” dentro de un conjunto totalmente simulado.
-    - para este proceso se utilizaron funciones logicas, como SI.CONJUNTO (con fechas anidadas) para la clasificacion tanto en la columna **origen** como en **segmentacion_demo**.
-    - para codigos y nombres se usaron funciones como ALEATORIO, ALEATORIO.ENTRE, &, UNIRCADENAS, ESPACIOS, entre otras.
+    - Para este proceso se utilizaron funciones logicas, como SI.CONJUNTO (con fechas anidadas) para la clasificacion tanto en la columna **origen** como en **segmentacion_demo**.
+    - Para codigos y nombres se usaron funciones como ALEATORIO, ALEATORIO.ENTRE, &, UNIRCADENAS, ESPACIOS, entre otras.
     - Limpieza y estandarizacion de los datos (recortar espacios, UTF-8, etc).
 
 2. **Creacion de la base datos y Carga archivos**
 
     - Se creo la base de datos en Postgresql y se conecto a Vscode para continuar con el flujo de trabajo desde ahi.
     - Carga de archivos y organizacion en carpetas del proyecto.
-    - creacion de las distintas tablas. puedes verlo aqui /queries.
+    - Creacion de las distintas tablas. puedes verlo aqui /queries.
+
+4. **Elaboracion de consultas RFM Y Definicion de cohortes**
+    
+    - Puedes verlas en /queries.
+
+5. **Exportacion de tabla a Excel y Analisis exploratorio**
+
+    - Exploracion de tendencias y patrones por medio de tablas dinamicas y simulacion extra de promedios de retencion de los cohortes.
+
+6. **Importacion de tabla a Power Bi**
 
     
 
