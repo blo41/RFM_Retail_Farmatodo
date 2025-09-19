@@ -15,6 +15,11 @@ Farmatodo es una de las principales cadenas de retail farmacéutico y de conveni
 En un mercado altamente competitivo, entender el comportamiento de compra de sus clientes (tanto en frecuencia como en gasto) es clave para diseñar campañas de retención y optimizar el ticket promedio.
 
 
+## Resumen Ejecutivo
+
+## Principales Hallazgos
+
+## Recomendaciones
 
 ## Apéndice Técnico
 
@@ -53,6 +58,9 @@ En un mercado altamente competitivo, entender el comportamiento de compra de sus
     - Importación de la tabla consolidada de cohortes.
     - Creación de métricas en DAX, como retención promedio global y retención acumulada. (AVERAGE, CALCULATE, FILTER, ALLSELECTED)
     - Construcción del dashboard de retención por cohortes. (en proceso)
+
+
+## Supuestos y Consideraciones
 
     
 
