@@ -35,7 +35,7 @@ En un mercado altamente competitivo, entender el comportamiento de compra de sus
      - `/csv_files`: Archivos fuente.
      - `/sql_load`: Scripts para creación de tablas y carga inicial.
      - `/queries`: Consultas de análisis y métricas clave.
-   - Carga y validación de datos mediante comandos `COPY`. puedes ver las cosnultas documentadas aqui `/queries`.
+   - Carga y validación de datos mediante comandos `COPY`. puedes ver las consultas documentadas aqui `/queries`.
 
 4. **Elaboracion de consultas RFM Y Definicion de cohortes**
     
@@ -48,7 +48,11 @@ En un mercado altamente competitivo, entender el comportamiento de compra de sus
     - Exploracion preliminar de cohortes por medio de tablas dinamicas. 
     - Simulacion complementaria de promedios de retencion de los cohortes.
 
-6. **Importacion de la tabla a Power Bi**
+6. **Análisis y Visualización en Power Bi**
+
+    - Importación de la tabla consolidada de cohortes.
+    - Creación de métricas en DAX, como retención promedio global y retención acumulada. (AVERAGE, CALCULATE, FILTER, ALLSELECTED)
+    - Construcción del dashboard de retención por cohortes. (en proceso)
 
     
 

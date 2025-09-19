@@ -41,7 +41,6 @@ GROUP BY
 
 
 -- Unificación de las métricas RFM (Recencia, Frecuencia, Monetario) en una sola tabla.
--- Esto facilita el análisis comparativo y posterior segmentación por cliente.    
 
 WITH recencia_cte AS (
     SELECT 
